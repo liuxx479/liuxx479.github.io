@@ -318,23 +318,23 @@
 		
 			.main.style1 {
 				text-align: center;
-				padding: 10em 0 10em 0;
+				padding: 8em 0 4em 0;
 			}
 			
 				.main.style1 h2 {
-					font-size: 4.25em;
-					line-height: 1em;
-					letter-spacing: -4px;
+					font-size: 3em;
+					line-height: 1.5em;
+					letter-spacing: -1px;
 				}
 				
 				.main.style1 .content {
-					opacity: 1.0;
+					opacity: 0.7;
 
 					/*-moz-transition: all 1s ease;
 					-webkit-transition: all 1s ease;
 					-o-transition: all 1s ease;
 					-ms-transition: all 1s ease;*/
-					transition: all 0.5s ease;
+					/*transition: all 0.5s ease;*/
 					
 					/*-moz-transform: translateZ(0);
 					-webkit-transform: translateZ(0);
@@ -346,9 +346,9 @@
 			.main.style1.inactive {
 			}
 			
-				.main.style1.inactive .content {
-					opacity: 0;
-				}
+				/*.main.style1.inactive .content {
+					opacity: 0.6;
+				}*/
 		
 			.main.style3 {
 				text-align: left;
